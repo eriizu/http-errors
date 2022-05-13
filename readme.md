@@ -1,6 +1,4 @@
-
 ![image](https://user-images.githubusercontent.com/63193601/168284480-23912080-5c38-4987-84e5-560cf88ae38b.png)
-
 
 # What's this?
 
@@ -23,7 +21,7 @@ I use traefik for my routing needs (which is mostly overkill, but i learned how 
 1. set the variables in `gen.sh` so they match the name of your pretend organisation (the way i do with potate.space)
 2. check that `errors.tsv` contains the kind of errors you want to display, among with what strings you want to use
 3. run `yarn && yarn gen:css && yarn gen:html` or `docker build .` if you have docker
-4. profit, the files to serve are in `dist` in you working directory or in `/var/www/htdocs/` in the resulting container; the container can be started as is, and will serve your error pages with [darkhttpd](https://github.com/emikulic/darkhttpd) (that i love dearly and use everywhere)
+4. profit, the files to serve are in `dist` in your working directory or in `/var/www/htdocs/` in the resulting container; the container can be started as is, and will serve your error pages with [darkhttpd](https://github.com/emikulic/darkhttpd) (that i love dearly and use everywhere)
 
 # can i use this?
 
