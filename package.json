@@ -1,0 +1,18 @@
+{
+  "name": "error-pages",
+  "version": "1.0.0",
+  "description": "Small utility to generate error pages to be served statically",
+  "main": "index.js",
+  "author": "Élise <elise@eiss.fr>",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "gen:css": "tailwind -m -i src/styles.css -o dist/styles.css",
+    "gen:html": "sh ./gen.sh errors.tsv dist"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.13",
+    "serve": "^13.0.2",
+    "tailwindcss": "^3.0.24"
+  }
+}

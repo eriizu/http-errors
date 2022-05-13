@@ -1,0 +1,5 @@
+index.html	404	not found	non trouvé	見つかりません	The gateway does not know how to connect to the specified service. Make sure the URL is correct. If so the service might be shutdown due to maintenance or an error.
+404.html	404	not found	non trouvé	見つかりません	The page or resource does not seem to exist on this service.
+500.html	500	internal server error	erreur interne du serveur	サーバ内部エラー	The gateway was faced with something unexpected.
+502.html	502	bad gateway	mauvaise passerelle	不正なゲートウェイ	The gateway received something invalid from the service it was trying to reach.
+504.html	504	gateway timeout	dépassement de la durée limite	ゲートウェイタイムアウト	The gateway waited for too long on a service.
