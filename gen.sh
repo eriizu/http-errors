@@ -8,7 +8,7 @@ TEMPLATE_AUTHOR="Élise"
 TEMPLATE_VENDOR_SHORT="PSS"
 TEMPLATE_VENDOR_LONG="Potate Systems and Services"
 TEMPLATE_CONTACT="none@example.com (do not contact us)"
-STYLES="https://err.example.com/styles.css"
+# STYLES="https://err.example.com/styles.css"
 
 while read y; do
 	# echo "Line contents are : $y"

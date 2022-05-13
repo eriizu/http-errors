@@ -10,6 +10,10 @@ no really it's a tool that generates error pages to be served statically using:
 
 it uses the 3 languages i speak for errors just for the sake of it. you may change the text so that i matches languages you care about.
 
+# why
+
+I use traefik for my routing needs (which is mostly overkill, but i learned how to use it before caddy was a thing). Traefik can proxy to an error page when it detects an HTTP error on connetion is was serving, if you setup the proper middleware for it (which was a pain, why do they make it so hard to have nice things). I built this to have standardised errors pages on the multiple servers i run.
+
 # get going
 
 1. set the variables in `gen.sh` so they match the name of your pretend organisation (the way i do with potate.space)
