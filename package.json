@@ -1,6 +1,6 @@
 {
   "name": "error-pages",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Small utility to generate error pages to be served statically",
   "main": "index.js",
   "author": "Élise <elise@eiss.fr>",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "postcss": "^8.4.13",
     "serve": "^13.0.2",
-    "tailwindcss": "^3.0.24"
-  }
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {}
 }
