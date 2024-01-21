@@ -3,3 +3,5 @@ index.html	404	not found	non trouvé	見つかりません	The gateway does not 
 500.html	500	internal server error	erreur interne du serveur	サーバ内部エラー	The gateway was faced with something unexpected.
 502.html	502	bad gateway	mauvaise passerelle	不正なゲートウェイ	The gateway received something invalid from the service it was trying to reach.
 504.html	504	gateway timeout	dépassement de la durée limite	ゲートウェイタイムアウト	The gateway waited for too long on a service.
+503.html	503	service unavailable	service indisponible	無効のサービ	This service is undermaintenance.
+potate_maintenance.html	503	migrating service	migration en cours	セービスを移行しています	We are migrating potate.space, this shouldn't take too long. 1 or 2 hours tops, we hope.
